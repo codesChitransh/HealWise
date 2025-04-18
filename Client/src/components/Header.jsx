@@ -11,13 +11,18 @@ function Header() {
         <div className='fex flex-col md:flex-row items-center gap-3 text-white font-light'>
           <img className='w-28'src={assets.group_profiles} alt="Group Profiles" />
           <p>
-            Browse Through our list of doctors,<br />
+            Browse Through our list of doctors,<br className='hidden sm:block '/>
             Track Your Progress and Talk with AI bot
           </p>
         </div>
-        <a href="#" className="flex items-center gap-2 text-white font-medium">
-          Book Appointment <img src={assets.arrow_icon} alt="Arrow Icon" />
-        </a>
+        <a
+  href="#speciality"
+  className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg shadow-md hover:bg-gray-100 transition duration-300"
+>
+  Book Appointment
+  <img className='w-3'src={assets.arrow_icon} alt="Arrow Icon" />
+
+</a>
       </div>
       <div className="md:w-1/2 relative">
         <img
