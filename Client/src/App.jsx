@@ -16,7 +16,7 @@ const App = () => {
       <Navbar/>
       <main className='container mx-auto px-4 py-8'>
         <Routes>
-          <Route path='/healwise' element={<Home />}/>
+          <Route path='/' element={<Home />}/>
           <Route path='/login' element={<Login />}/>
           <Route path='/doctors' element={<Doctors />}/>
           <Route path='/doctors/:speciality' element={<Doctors/>}/>

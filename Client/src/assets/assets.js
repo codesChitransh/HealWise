@@ -6,7 +6,7 @@ import contact_image from './contact_image.png'
 import about_image from './about_image.png'
 import logo from './logo.svg'
 import logo3 from './logo3.png'
-
+import headerdoc from './headerdoc.png'
 import dropdown_icon from './dropdown_icon.svg'
 import menu_icon from './menu_icon.svg'
 import cross_icon from './cross_icon.png'
@@ -43,6 +43,7 @@ import Pediatricians from './Pediatricians.svg'
 export const assets = {
     appointment_img,
     header_img,
+    headerdoc,
     group_profiles,
     logo,
     logo3,
