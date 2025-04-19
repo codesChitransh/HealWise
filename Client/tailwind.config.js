@@ -9,16 +9,17 @@ module.exports = {
     extend: {
       fontFamily: {
         dancing: ['"Dancing Script"', 'cursive'],
+        sans: ['Roboto', 'sans-serif'],
       },
       screens: {
         'smd': '640px', // Custom breakpoint for 640px and above
       },
       colors: {
-        primary: '#5f6FFF',
-        mybg: "#f0f9f8", // Adding your custom color
-        //mytitlebar: "#81bfb7",
+        primary: '#5f6FbF',
+        mybg: "#f0f9f8", 
+        
         mytitlebar: "#10375b",
-        //mytext: "#1c1c1c",
+       
         mytext: "#D3D2D2",
         mytextbg: "#015c60",
         'emerald': {
