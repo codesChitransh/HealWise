@@ -14,6 +14,9 @@ module.exports = {
       screens: {
         'smd': '640px', // Custom breakpoint for 640px and above
       },
+      gridTemplateColumns:{
+        'auto':'repeat(autofill,minmax(200px,1fr))'
+      },
       colors: {
         primary: '#5f6FbF',
         mybg: "#f0f9f8", 
