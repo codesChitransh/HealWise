@@ -18,7 +18,7 @@ module.exports = {
         'auto':'repeat(autofill,minmax(200px,1fr))'
       },
       colors: {
-        primary: '#5f6FbF',
+        primary: '#5f6FFF',
         mybg: "#f0f9f8", 
         
         mytitlebar: "#10375b",

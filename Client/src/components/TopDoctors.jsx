@@ -1,7 +1,9 @@
 import React from 'react'
 import { doctors } from '../assets/assets'
+import { useNavigate } from 'react-router-dom'
 
 function TopDoctors() {
+  const navigate=useNavigate()
   return (
     <div className='flex flex-col items-center gap-4 my-16 text-gray-900'>
       <h1 className='text-3xl font-medium'>
@@ -13,8 +15,8 @@ function TopDoctors() {
       </p>
 
       <div className='w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 pt-5 gap-y-6 sm:px-0 px-3'>
-        {doctors.slice(0, 5).map((item, index) => (
-          <div
+        {doctors.slice(0, 10).map((item, index) => (
+          <div onClick={()=>navigate(`/appointment/${item._id}`)}
             key={index}
             className='border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:-translate-y-2 transition-all duration-500 bg-white shadow-sm'
           >
